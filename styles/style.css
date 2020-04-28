@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.color-h{
+    color: white;
+}
+.h2{
+    font-size: 40px;
+    margin: 0 auto;
+}
+.paragraphly{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto;
+}
+.h2-like{
+    font-size: 40px;
+    color: white;
+    padding: 30px 60px 0px;
+    margin: 35px 0px 20px;
+}
+.p-like{
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    padding: 0%;
+    margin: 0px 60px 0px 145px;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 10px;
+    color: #f1efec;
+}
+.logo{
+    background: url("../images/logo.png")  no-repeat;
+    width: 212px;
+    height: 45px;
+    background-size: cover;
+    margin-right: 100px;
+}
+.menu-link{
+    color: #333;
+    text-transform: uppercase;
+}
+.promo-block{
+    background: url("../images/image.jpg") no-repeat;
+    background-size: cover;
+    width: 1024px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.p-small{
+    font-size: 24px;
+    color: white;
+    margin: 0 auto;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block-logo{
+    background-color: #f1efec;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-image{
+    width: 33.33333%;
+}
+
+.grass{
+    width: 66.66667%;
+}
+
+.block-donate{
+    background: #9b242d;
+    color: white;
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up{
+    background-color: #46a651;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 66.66667%;   
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background: #348e3e;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 1rem 30px;
+    margin: 20px 60px;
+}
+
+.facebook{
+    background: #3b5997;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #373838;
+    padding: 45px;    
+}
+
+.footer_menu{
+    color: #939393;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 0px 30px
+}
+
+.red:hover{
+    color: red;
+}
+
+.white:hover{
+    color: white;
+}
